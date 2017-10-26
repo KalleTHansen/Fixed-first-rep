@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'poiret_oneregular';
+    src: url('../fonts/poire/poiretone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poire/poiretone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Droid sans', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+p {
+  font-family: 'poiret_oneregular', sans-serif;
+  letter-spacing: 0.7em;
+  font-weight: bold;
+  color: grey;
+  font-size: 120%;
+}
+
+.fa-bell-o {
+  font-size: 1.5em;
+  color: turquoise;
+}
